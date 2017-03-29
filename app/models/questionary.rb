@@ -1,4 +1,4 @@
-class Questionary < ApplicationRecord
+class Questionary < ApplicationRecord::Base
   has_many :questionary_item
   has_many :questionary_result
 
