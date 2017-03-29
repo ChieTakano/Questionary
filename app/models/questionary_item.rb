@@ -1,4 +1,4 @@
-class QuestionaryItem < ApplicationRecord
+class QuestionaryItem < ActiveRecord::Base
 	belongs_to :questionary
 	has_many :questionary_choice
 

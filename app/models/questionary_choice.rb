@@ -1,4 +1,4 @@
-class QuestionaryChoice < ApplicationRecord
+class QuestionaryChoice < ActiveRecord::Base
 	belongs_to :questionary_item
 
 	validates :content, :value, presence: {message:'は、必須項目です。'}
