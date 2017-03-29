@@ -1,6 +1,5 @@
 class QuestionaryChoicesController < ApplicationController
 	before_action :set_questionary_choice, only: [:show, :edit, :update, :destroy]
-	layout 'questionaries'
 
 	# GET /questionary_choices
 	# GET /questionary_choices.json

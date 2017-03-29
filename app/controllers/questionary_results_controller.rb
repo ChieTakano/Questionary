@@ -1,6 +1,5 @@
 class QuestionaryResultsController < ApplicationController
 	#before_action :set_questionary_result, only: [:show, :edit, :update, :destroy]
-	layout 'questionaries'
 
 	# GET /questionary_results
 	# GET /questionary_results.json

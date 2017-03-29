@@ -1,6 +1,5 @@
 class QuestionaryItemsController < ApplicationController
 	before_action :set_questionary_item, only: [:show, :edit, :update, :destroy]
-	layout 'questionaries'
 	
 	# GET /questionary_items
 	# GET /questionary_items.json
